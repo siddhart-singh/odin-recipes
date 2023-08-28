@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Lora:wght@400;500;600;700&display=swap');
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    padding: 0 16px;
+    margin: auto;
+    outline: 2px solid black;
+    font-family: 'Assistant', sans-serif;;
+}
+
+.container-heading, h2{
+    font-family: 'Lora', serif;    
+}
+
+.container-image{
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+    border-radius: 2%;
+}
